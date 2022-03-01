@@ -21,11 +21,26 @@
 }
 .chat-list{
     width: 463px;
-    background-color: green;
     height: 647px;
+    border: 1px solid green;
 }
 .current-chat{
     width: 691px;
     background-color: rgb(230, 221, 212);
     height: 647px;
+}
+.top-bar{
+    height: 46px;
+    background-color: rgb(234, 234, 234);
+}
+.alert-bar{
+    height: 53px;
+    background-color: rgb(119, 219, 255);
+}
+.search-bar{
+    height: 46px;
+    background-color: rgb(255, 255, 255);
+}
+.friends-chat{
+    
 }
