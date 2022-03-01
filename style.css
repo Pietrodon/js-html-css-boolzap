@@ -38,6 +38,10 @@
 .alert-bar{
     height: 53px;
     background-color: rgb(119, 219, 255);
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
 }
 .search-bar{
     height: 46px;
@@ -68,4 +72,17 @@
     color: rgb(177, 177, 177);
     height: 16px;
     margin: 15px 5px;
+}
+.alert-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.alert-icon i{
+    color: rgb(119, 219, 255);
 }
