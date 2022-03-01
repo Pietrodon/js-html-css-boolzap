@@ -32,6 +32,8 @@
 .top-bar{
     height: 46px;
     background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: space-between;
 }
 .alert-bar{
     height: 53px;
@@ -48,7 +50,8 @@
 }
 .container-top-bar{
     display: flex;
-    gap: 10px;
+    gap: 8px;
+    
 }
 .img-avatar{
     width: 35px;
@@ -57,5 +60,12 @@
     margin: 5px 0 0 10px;
 }
 .avatar-name{
-    margin-top: 15px; 
+    margin-top: 15px;
+}
+.icone{
+    display: flex;
+    gap: 15px;
+    color: rgb(177, 177, 177);
+    height: 16px;
+    margin: 15px 5px;
 }
