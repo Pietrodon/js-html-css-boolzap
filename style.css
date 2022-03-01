@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-page-up{
+    width: 100vw;
+    height: calc(100vh - 600px);
+    background-color: rgb(0, 154, 139);
+    
+}
+.bg-page-down{
+    background-color: rgba(211, 220, 217, 1);
+    height: calc(100vh);
+}
+.chat{
+    height: 644px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.chat-list{
+    width: 463px;
+    background-color: green;
+    height: 647px;
+}
+.current-chat{
+    width: 691px;
+    background-color: rgb(230, 221, 212);
+    height: 647px;
+}
