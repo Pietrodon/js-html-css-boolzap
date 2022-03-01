@@ -22,12 +22,15 @@
 .chat-list{
     width: 463px;
     height: 647px;
-    border: 1px solid green;
+    border: 1px solid black;
+
 }
 .current-chat{
     width: 691px;
     background-color: rgb(230, 221, 212);
     height: 647px;
+    border: 1px solid black;
+
 }
 .top-bar{
     height: 46px;
@@ -101,3 +104,16 @@
     position: absolute;
     left: 5px;
 }
+.friends-info{
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-message{
+    font-size: 12px;
+    color: rgb(147, 147, 147);
+}
+
